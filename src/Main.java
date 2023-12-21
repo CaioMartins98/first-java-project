@@ -1,15 +1,33 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        String nameFilm = "Top Gun: Maverick";
+        System.out.println("Esse é o ScreenMatch");
+        System.out.println("Filme: " + nameFilm);
+
+        int year = 2022;
+        System.out.println("Ano de lançamento: " + year);
+
+        boolean includePlan = false;
+        System.out.println("Incluso no plano: " + includePlan);
+
+        double note1 = 8.5;
+        double note2 = 2.2;
+        double note3 = 3.5;
+        double media = (note1 + note2 + note3)/3;
+
+        System.out.println("Média: " + media);
+
+        String sinopse;
+        sinopse = """ 
+                Filme Top Gun: Maverick 
+                blablablablablabla
+                blablabla
+                """;
+        System.out.println("Sinopse: " + sinopse);
+
+        int classification = (int) (media/2);
+
+        System.out.println("Nota: " + classification);
     }
 }
